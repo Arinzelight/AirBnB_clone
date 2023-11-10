@@ -1,9 +1,13 @@
 #!/usr/bin/python3
-"""Creates a unique file storage for the app.
-"""
+"""Defines the State class."""
+from models.base_model import BaseModel
 
 
-from models.engine.file_storage import FileStorage
+class State(BaseModel):
+    """Represent a state.
 
-storage = FileStorage()
-storage.reload()
+    Attributes:
+        name (str): The name of the state.
+    """
+
+    name = ""

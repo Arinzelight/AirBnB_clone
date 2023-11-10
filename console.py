@@ -15,11 +15,6 @@ from models.review import Review
 
 
 class HBNBCommand(cmd.Cmd):
-    """Defines the HolbertonBnB command interpreter.
-
-    Attributes:
-        prompt (str): The command prompt.
-    """
     prompt = '(hbnb) '
     __classes = [
         "Amenity",
@@ -174,6 +169,7 @@ class HBNBCommand(cmd.Cmd):
            press enter an empty line
         '''
         pass
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()

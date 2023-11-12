@@ -68,8 +68,8 @@ class TestUser_instantiation(unittest.TestCase):
         user.id = "123456"
         user.created_at = user.updated_at = dt
         user_str = user.__str__()
-        self.assertIn("[User] (123456)", usstr)
-        self.assertIn("'id': '123456'", usstr)
+        self.assertIn("[User] (123456)", user_str)
+        self.assertIn("'id': '123456'", user_str)
         self.assertIn("'created_at': " + dt_repr, user_str)
         self.assertIn("'updated_at': " + dt_repr, user_str)
 

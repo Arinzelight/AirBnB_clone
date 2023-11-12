@@ -183,7 +183,7 @@ class TestUser_to_dict(unittest.TestCase):
 
     def test_contrast_to_dict_dunder_dict(self):
         user = User()
-        self.assertNotEqual(us.to_dict(), user.__dict__)
+        self.assertNotEqual(user.to_dict(), user.__dict__)
 
     def test_to_dict_with_arg(self):
         user = User()

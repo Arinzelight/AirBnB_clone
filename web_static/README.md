@@ -184,7 +184,7 @@ $
 
 ### :black_nib: Authors
 ***
-*ALX School Students*
+*ALX School Student*
 
-Bongekile Mlindwa - [Github](https://github.com/Bongekile06) | [LinkedIn](https://www.linkedin.com/in/Bongekile Mlindwa/)
+Bongekile Mlindwa - [Github](https://github.com/Bongekile06) | [LinkedIn](https://www.linkedin.com/in/BongekileMlindwa/)
 

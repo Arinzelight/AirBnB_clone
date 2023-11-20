@@ -1,5 +1,7 @@
 # AirBnB Clone - Web Static
 
+![AirBnB Clone Overview](./images/UI.png)
+
 ## 0x01. AirBnB clone - Web static
 
 ### Background Context
@@ -9,18 +11,22 @@ In the vast realm of web development, creating a dynamic and visually appealing 
 Before diving into the complexities of a large web application, we'll take the first steps:
 
 1. **Create Simple HTML Static Pages:**
+
    - Develop static HTML pages as a foundation for your application.
    - Think of this as sketching or prototyping each element of your web application.
 
 2. **Style Guide:**
+
    - Establish a style guide to maintain consistency in the appearance of your web pages.
    - Define the visual elements such as colors, fonts, and layout.
 
 3. **Fake Contents:**
+
    - Populate your static pages with placeholder or fake contents.
    - This allows you to design and structure your pages without worrying about dynamic data.
 
 4. **No Javascript:**
+
    - Focus solely on HTML and CSS for now; no need for Javascript in this phase.
    - Javascript will be introduced in later stages of the project.
 
@@ -52,3 +58,4 @@ The project structure will evolve as you progress. Here's a basic outline:
 │   └── ...
 └── README.md
 
+```

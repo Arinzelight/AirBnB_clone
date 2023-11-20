@@ -1,76 +1,54 @@
-# 0x01. AirBnB clone - Web static
+# AirBnB Clone - Web Static
 
-## Description
-What you should learn from this project:
+## 0x01. AirBnB clone - Web static
 
-* What is HTML
-* How to create an HTML page
-* What is a markup language
-* What is the DOM
-* What is an element / tag
-* What is an attribute
-* How does the browser load a webpage
-* What is CSS
-* How to add style to an element
-* What is a class
-* What is a selector
-* How to compute CSS Specificity Value
-* What are Box properties in CSS
+### Background Context
 
----
+In the vast realm of web development, creating a dynamic and visually appealing user interface is a crucial step. The "AirBnB Clone - Web static" project is designed to guide you through the process of building the frontend elements of your AirBnB application incrementally.
 
-### [0. Inline styling](./0-index.html)
-* Write an HTML page that displays a header and a footer.
+Before diving into the complexities of a large web application, we'll take the first steps:
 
+1. **Create Simple HTML Static Pages:**
+   - Develop static HTML pages as a foundation for your application.
+   - Think of this as sketching or prototyping each element of your web application.
 
-### [1. Head styling](./1-index.html)
-* Write an HTML page that displays a header and a footer by using the style tag in the head tag (same as 0-index.html)
+2. **Style Guide:**
+   - Establish a style guide to maintain consistency in the appearance of your web pages.
+   - Define the visual elements such as colors, fonts, and layout.
 
+3. **Fake Contents:**
+   - Populate your static pages with placeholder or fake contents.
+   - This allows you to design and structure your pages without worrying about dynamic data.
 
-### [2. CSS files](./2-index.html)
-* Write an HTML page that displays a header and a footer by using CSS files (same as 1-index.html)
+4. **No Javascript:**
+   - Focus solely on HTML and CSS for now; no need for Javascript in this phase.
+   - Javascript will be introduced in later stages of the project.
 
+5. **No Data Loaded from Anything:**
+   - For simplicity, avoid loading data dynamically from a database or external sources.
+   - Concentrate on creating a visually appealing and functional static interface.
 
-### [3. Zoning done!](./3-index.html)
-* Write an HTML page that displays a header and footer by using CSS files (same as 2-index.html)
+Throughout this project, you will gain valuable experience in manipulating HTML and CSS, the foundational languages for web development.
 
+### Project Structure
 
-### [4. Search!](./4-index.html)
-* Write an HTML page that displays a header, footer and a filters box with a search button.
+The project structure will evolve as you progress. Here's a basic outline:
 
+```plaintext
+.
+├── 0-index.html
+├── 1-index.html
+├── 2-index.html
+├── ...
+├── styles/
+│   ├── 0-styles.css
+│   ├── 1-styles.css
+│   ├── 2-styles.css
+│   ├── ...
+│   └── common-styles.css
+├── images/
+│   ├── image1.jpg
+│   ├── image2.png
+│   └── ...
+└── README.md
 
-### [5. More filters](./5-index.html)
-* Write an HTML page that displays a header, footer and a filters box.
-
-
-### [6. It's (h)over](./6-index.html)
-* Write an HTML page that displays a header, footer and a filters box with dropdown.
-
-
-### [7. Display results](./7-index.html)
-* Write an HTML page that displays a header, footer, a filters box with dropdown and results.
-
-
-### [8. More details](./8-index.html)
-* Write an HTML page that displays a header, a footer, a filter box (dropdown list) and the result of the search.
-
-
-### [9. Full details](./100-index.html)
-* Write an HTML page that displays a header, footer, a filters box with dropdown and results.
-
-
-### [10. Flex](./101-index.html)
-* Improve the Places section by using Flexible boxes for all Place articles
-
-
-### [11. Responsive design](./102-index.html)
-* Improve the page by adding responsive design to display correctly in mobile or small screens.
-
-
-### [12. Accessibility](./103-index.html)
-* Improve the page by adding Accessibility support
-
----
-
-## Author
-* **Bongekile Mlindwa** - [Bongekile](https://github.com/Bongekile06)
